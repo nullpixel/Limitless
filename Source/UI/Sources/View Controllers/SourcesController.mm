@@ -145,7 +145,7 @@
     Source *source([self sourceAtIndexPath:indexPath]);
     _UITableViewCellActionButton *favoritesButton = [_UITableViewCellActionButton buttonWithType:UIButtonTypeCustom];
     [favoritesButton setFrame:CGRectMake(0, 0, 100, 100)];
-    [favoritesButton setImage:[UIImage imageNamed:@"home7s"] forState:UIControlStateNormal];
+    [favoritesButton setImage:[UIImage imageNamed:@"favorite"] forState:UIControlStateNormal];
     favoritesButton.imageView.contentMode = UIViewContentModeScaleAspectFit;
     [favoritesButton setBackgroundColor:[UIColor systemDarkGreenColor]];
     UITableViewRowAction *addToFavoritesAction = [UITableViewRowAction rowActionWithStyle:UITableViewRowActionStyleDefault title:@"" handler:^(UITableViewRowAction *action, NSIndexPath *indexPath) {
